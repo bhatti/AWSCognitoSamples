@@ -1,4 +1,4 @@
-# Sample Flutter App for Integrating with AWS Cognito and implemnting Authentication
+# Sample IOS App for Integrating with AWS Cognito using AWS SDK and implementing basic Authentication Functionality.
 
 ## Step-1: Set Up AWS Cognito User Pool and App Client ID
   - Log in to the AWS Management Console.

@@ -1,4 +1,4 @@
-# Sample Flutter App for Integrating with AWS Cognito and implemnting Authentication
+# Sample IOS App for Integrating with AWS Cognito using AWS Amplify and implementing basic Authentication Functionality.
 
 ## Prerequisite
   - Install Android Studio from https://developer.android.com/studio/install
