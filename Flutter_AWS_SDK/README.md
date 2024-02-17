@@ -5,6 +5,8 @@
   - Install Flutter from https://docs.flutter.dev/get-started/install/macos/mobile-android?tab=download
   - Accept Licences using `flutter doctor --android-licenses`.
   - Verify Flutter Installation using `flutter doctor -v`.
+  - Add Android emulator using `flutter emulators --create --name android-device`.
+  - Launch Android emulator using `flutter emulators --launch android-device`
 
 ## Step-1: Set Up AWS Cognito User Pool and App Client ID
   - Log in to the AWS Management Console.
@@ -19,7 +21,7 @@
   - Verify these dependencies to your package's `pubspec.yaml`.
 
 ## Step 3: Initialize Cognito
-Update `assets/config.dart` and initialize your Cognito user pool with your Pool ID and App Client ID:
+Update `assets/config.json` and initialize your Cognito user pool with your Pool ID and App Client ID:
 ```
 {
     "UserPoolID": "<<YOUR USER POOL ID>>",
@@ -180,6 +182,8 @@ class _SignUpViewState extends State<SignUpView> {
 
 ...
 ```
+## Step 5: Run Application
+Launch the application using `flutter run`.
 
 ## Resources
 - [AWS Cognito](https://aws.amazon.com/cognito/)
