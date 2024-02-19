@@ -1,9 +1,9 @@
 # Sample Flutter App for Integrating with AWS Cognito and implementing Authentication Functionality.
 
 ## Prerequisite
-  - Install Android Studio or the Android Command-Line Tools from [https://developer.android.com/studio/install](https://developer.android.com/).
-  - Install Flutter from [https://docs.flutter.dev/get-started/install/macos/mobile-android?tab=download](https://docs.flutter.dev/get-started).
-  - Optionally install IDE with Flutter Plugin for [https://docs.flutter.dev/tools/vs-code](Visual Studio Code), [https://docs.flutter.dev/tools/android-studio](Android Studio) or [https://plugins.jetbrains.com/plugin/9212-flutter](IntelliJ IDEA).
+  - Install Android Studio or the Android Command-Line Tools from [https://developer.android.com/](https://developer.android.com/studio/install).
+  - Install Flutter from [https://docs.flutter.dev/get-started](https://docs.flutter.dev/get-started/install/macos/mobile-android?tab=download).
+  - Optionally install IDE with Flutter Plugin for [Visual Studio Code](https://docs.flutter.dev/tools/vs-code), [Android Studio](https://docs.flutter.dev/tools/android-studio) or [IntelliJ IDEA](https://plugins.jetbrains.com/plugin/9212-flutter).
   - Accept Licences using `flutter doctor --android-licenses`.
   - Verify Flutter Installation using `flutter doctor -v`.
   - Add Android emulator using `flutter emulators --create --name android-device`.
